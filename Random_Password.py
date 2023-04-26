@@ -56,5 +56,5 @@ password = shuffle(password)
 while (password.startswith(spcChar1) == True or password.startswith(spcChar2) == True or password.startswith(spcChar3) == True):
     shuffle(password)
 
-# Prints the randomized strong password
+# Prints the randomized strong password.
 print("\nNew Password: " + password + "\n")
