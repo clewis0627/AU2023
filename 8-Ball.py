@@ -1,7 +1,7 @@
 # 
 # Magic 8-Ball Program
 # Author: Cameron Lewis
-# Date Created: 25 APRIL 2023
+# Created: 25 APRIL 2023
 # Last Updated: 26 APRIL 2023
 # 
 
