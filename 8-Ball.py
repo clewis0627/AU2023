@@ -22,7 +22,8 @@ print("\n")
 play = True
 
 while(play==True):
-    #[insert code]
+    
+    # Possible outcomes that the Magic 8-Ball can respond with.
     def r1():
         print("It is certain.")
 
@@ -83,9 +84,13 @@ while(play==True):
     def r20():
         print("Very doubtful.")
 
+    # Lets user ask the Magic 8-Ball their question.
     question = input("What is your question for the Magic 8-Ball?   ")
+    
+    # Magic 8-Ball randomly chooses what the answer to their question is.
     choice = random.randrange(1,20,1)
-
+    
+    # Logic to print the statement corresponding with the Magic 8-Ball's answer.
     if(choice==1):
         r1()
     if(choice==2):
@@ -127,10 +132,10 @@ while(play==True):
     if(choice==20):
         r20()
    
+    # Asks user if they want to play again.
     userInput = input("Do you want to ask another question? [Y/N]   ")
     if(userInput!= 'Y'):
         play = False
-        break
 
 print("The Magic 8-Ball never lies. Farewell until next time.")
 
