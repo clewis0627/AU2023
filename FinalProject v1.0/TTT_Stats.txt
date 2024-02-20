@@ -1,0 +1,6 @@
+Game Record on 2023-11-28 14:18
+
+Player X Wins: 2
+Player O Wins: 1
+Draws: 0
+
